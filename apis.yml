@@ -1,8 +1,24 @@
 aid: forty-seven
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forty-seven.png
 name: Forty Seven *
-description: 'Forty Seven * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Forty Seven, Inc. was an immuno-oncology biotechnology company founded in 2015 to
+  commercialize CD47 immune-evasion research licensed from Stanford University (Irv Weissman and colleagues).
+  Its lead program was magrolimab, a monoclonal antibody targeting CD47 — the "do not eat me" signal tumor
+  cells use to evade macrophage-mediated killing — studied in myelodysplastic syndrome (MDS), acute myeloid
+  leukemia (AML), and diffuse large B-cell lymphoma (DLBCL). Backed by GV, the company was acquired by
+  Gilead Sciences in 2020 for roughly $4.9 billion; the fortyseveninc.com domain now redirects to
+  gilead.com. As a clinical-stage therapeutics company it exposes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/forty-seven/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Immuno-Oncology
+- Oncology
+- Pharmaceuticals
+- Cancer
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/forty-seven-domain-security.yml
 - type: Website
   url: http://fortyseveninc.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
