@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://fortyseveninc.com', status: 307, note: 'declared website redirects to https://www.gilead.com/ — a different registrable domain (fortyseveninc.com -> gilead.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forty-seven.png
 name: Forty Seven *
 description: 'Forty Seven, Inc. was an immuno-oncology biotechnology company founded in 2015 to
