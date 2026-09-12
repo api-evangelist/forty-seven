@@ -58,6 +58,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: CrunchBase
+  url: https://www.crunchbase.com/organization/forty-seven-inc
 - type: ParentCompany
   url: https://apis.io/providers/gilead-sciences/
   name: Gilead Sciences
@@ -72,3 +74,5 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-parent: gilead-sciences
+x-relationship: acquisition
